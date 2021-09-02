@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,9 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +22,28 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.section {
+  font-family: "Turret Road", cursive;
+  font-size: x-large;
+  color: rgb(248, 177, 46);
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.hm {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+.abt-cont {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .App-link {

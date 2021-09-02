@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <div className="section">
           <nav className="hm">
-            <p>127.0.0.1</p>
+            <p>🏠127.0.0.1</p>
           </nav>
           <span className="abt-cont">
             <p>?.about</p>

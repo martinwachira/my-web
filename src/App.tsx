@@ -12,8 +12,9 @@ function App() {
             <p>127.0.0.1</p>
           </nav>
           <span className="abt-cont">
-            <p>about</p>
-            <p>contact</p>
+            <p>?.about</p>
+            <p>work()</p>
+            <p>_contact['']</p>
           </span>
         </div>
         {/* <header className="App-header">

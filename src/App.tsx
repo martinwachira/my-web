@@ -15,9 +15,9 @@ function App() {
             <button onClick={handleHomeOpen}>🏠127.0.0.1</button>
           </nav>
           <span className="abt-cont">
-            <p>?.about</p>
-            <p>work()</p>
-            <p>_contact['']</p>
+            <button>?.about</button>
+            <button>work()</button>
+            <button>_contact['']</button>
           </span>
         </div>
         {/* <header className="App-header">

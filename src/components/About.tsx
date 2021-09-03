@@ -5,10 +5,11 @@ interface Me {
   occupation: string;
 }
 
-const About: React.FC<Me> = () => {
+const About: React.FC<Me> = (props) => {
   return (
     <>
-      <p>me</p>
+      {props.name}
+      {props.occupation}
     </>
   );
 };

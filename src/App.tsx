@@ -1,5 +1,7 @@
 import "./App.css";
 
+import About from "./components/About";
+import Blinker from "./components/UI/Blinker";
 import React from "react";
 import logo from "./logo.svg";
 
@@ -22,9 +24,15 @@ function App() {
               <button>_contact['']</button>
             </span>
           </div>
+          <div className="blinker">
+            <Blinker />
+          </div>
 
           {/* section body */}
-          <div className="sec-body">the body part</div>
+          <div className="sec-body">
+            the body part
+            <About name="Martin  Wachira" occupation="Web Software Developer" />
+          </div>
         </div>
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

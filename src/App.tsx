@@ -4,12 +4,15 @@ import React from "react";
 import logo from "./logo.svg";
 
 function App() {
+  const handleHomeOpen = () => {
+    console.log("open home");
+  };
   return (
     <>
       <div className="App">
         <div className="section">
           <nav className="hm">
-            <p>🏠127.0.0.1</p>
+            <button onClick={handleHomeOpen}>🏠127.0.0.1</button>
           </nav>
           <span className="abt-cont">
             <p>?.about</p>

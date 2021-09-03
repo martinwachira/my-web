@@ -3,7 +3,8 @@ import "./App.css";
 import About from "./components/About";
 import Blinker from "./components/UI/Blinker";
 import React from "react";
-import logo from "./logo.svg";
+
+// import logo from "./logo.svg";
 
 function App() {
   const handleHomeOpen = () => {

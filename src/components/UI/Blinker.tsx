@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 const Blinker: React.FC = () => {
   const [index, setIndex] = useState(0);
@@ -6,10 +6,10 @@ const Blinker: React.FC = () => {
   const [blink, setBlink] = useState(true);
   const [reverse, setReverse] = useState(false);
 
-  const statements = [
-    "<? Hello World >.",
-    "console.log('my name is martin wachira');",
-  ];
+  const statements = useMemo(
+    () => ["<? Hello World >.", "console.log('my name is martin wachira');"],
+    []
+  );
 
   // typeWriter --custom
   useEffect(() => {
@@ -31,7 +31,7 @@ const Blinker: React.FC = () => {
       setSubIndex((prev) => prev + (reverse ? -1 : 1));
     }, Math.max(reverse ? 75 : subIndex === statements[index].length ? 1000 : 150, Math.random() * 350));
     return () => clearTimeout(timeout);
-  }, [subIndex, index, reverse]);
+  }, [statements, subIndex, index, reverse]);
 
   // blinker
   useEffect(() => {

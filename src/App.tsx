@@ -11,14 +11,20 @@ function App() {
     <>
       <div className="App">
         <div className="section">
-          <nav className="hm">
-            <button onClick={handleHomeOpen}>🏠127.0.0.1</button>
-          </nav>
-          <span className="abt-cont">
-            <button>?.about</button>
-            <button>work()</button>
-            <button>_contact['']</button>
-          </span>
+          {/* section header */}
+          <div className="header">
+            <nav className="hm">
+              <button onClick={handleHomeOpen}>🏠127.0.0.1</button>
+            </nav>
+            <span className="abt-cont">
+              <button>?.about</button>
+              <button>work()</button>
+              <button>_contact['']</button>
+            </span>
+          </div>
+
+          {/* section body */}
+          <div className="sec-body">the body part</div>
         </div>
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

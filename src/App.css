@@ -24,7 +24,7 @@
   color: white;
 } */
 
-.section {
+.section .header {
   font-weight: bolder;
   font-size: large;
   font-family: "Turret Road", cursive;
@@ -55,13 +55,13 @@ button:active {
   transform: translateY(3px);
 }
 
-.hm {
+.header .hm {
   flex: 2;
   display: flex;
   justify-content: flex-start;
   margin-left: 52%;
 }
-.abt-cont {
+.header .abt-cont {
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -70,19 +70,19 @@ button:active {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .section {
+  .section .header {
     font-weight: bolder;
     font-size: x-large;
     color: white;
     display: flex;
     flex-direction: column;
   }
-  .hm {
+  .header .hm {
     padding: 2%;
     margin: 0;
     justify-content: flex-start;
   }
-  .abt-cont {
+  .header .abt-cont {
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -92,14 +92,22 @@ button:active {
 
 @media only screen and (min-width: 768px) and (max-width: 1450px) {
   /* For tabs: */
-  .section {
+  .section .header {
     color: white;
     display: flex;
     flex-direction: column;
   }
-  .hm {
+  .header .hm {
     text-align: center;
   }
+}
+
+.sec-body {
+  display: flex;
+  color: white;
+  margin: 2% 0 10% 53%;
+  justify-content: center;
+  text-align: center;
 }
 
 .App-link {

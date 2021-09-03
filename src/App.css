@@ -27,22 +27,23 @@
 } */
 
 .header {
-  /* font-weight: bold; */
-  color: rgb(245, 248, 78);
-  /* text-shadow: 8px 6px 4px #4c4e4c; */
-  /* text-shadow: 8px 6px 4px white; */
+  font-family: inherit;
+  font-weight: small;
+  color: white;
+  text-shadow: 9px 8px 16px #ff14d5;
   display: flex;
   flex-direction: row;
 }
 
 button {
+  font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
   background-color: transparent;
   border-color: transparent;
   color: inherit;
-  text-shadow: 8px 6px 4px #7de468;
   cursor: pointer;
+  text-shadow: inherit;
 }
 
 button:hover {
@@ -96,7 +97,7 @@ button:active {
   .section .header {
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .header .hm {
     text-align: center;

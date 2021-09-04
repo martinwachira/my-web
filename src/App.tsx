@@ -1,14 +1,17 @@
 import "./App.css";
 
+import React, { useState } from "react";
+
 import About from "./components/About";
 import Blinker from "./components/UI/Blinker";
-import React from "react";
 
 // import logo from "./logo.svg";
 
 function App() {
+  const [show, setShow] = useState<boolean>(true);
   const handleHomeOpen = () => {
     console.log("open home");
+    setShow(true);
   };
   return (
     <>
@@ -17,10 +20,10 @@ function App() {
           {/* section header */}
           <div className="header">
             <nav className="hm">
-              <button onClick={handleHomeOpen}>🏠127.0.0.1</button>
+              <button>🏠127.0.0.1</button>
             </nav>
             <span className="abt-cont">
-              <button>?.about</button>
+              <button onClick={handleHomeOpen}>?.about</button>
               <button>work()</button>
               <button>_contact['']</button>
             </span>
@@ -31,8 +34,12 @@ function App() {
 
           {/* section body */}
           <div className="sec-body">
-            the body part
-            <About name="Martin  Wachira" occupation="Web Software Developer" />
+            {show && (
+              <About
+                name="Martin  Wachira"
+                occupation="Web Software Developer"
+              />
+            )}
           </div>
         </div>
         {/* <header className="App-header">

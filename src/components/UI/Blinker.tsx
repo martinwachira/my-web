@@ -43,7 +43,7 @@ const Blinker: React.FC = () => {
 
   return (
     <>
-      <h2 style={{ color: "green" }}>
+      <h2 style={{ color: "lightseagreen" }}>
         {" "}
         {`${statements[index].substring(0, subIndex)}${blink ? "|" : " "}`}
       </h2>

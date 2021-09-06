@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const Blinker: React.FC = () => {
+const Blinker = () => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);

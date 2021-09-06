@@ -42,10 +42,12 @@ const Blinker: React.FC = () => {
   }, [blink]);
 
   return (
-    <h2 style={{ color: "#FF14D5" }}>
-      {" "}
-      {`${statements[index].substring(0, subIndex)}${blink ? "|" : " "}`}
-    </h2>
+    <>
+      <h2 style={{ color: "green" }}>
+        {" "}
+        {`${statements[index].substring(0, subIndex)}${blink ? "|" : " "}`}
+      </h2>
+    </>
   );
 };
 export default Blinker;

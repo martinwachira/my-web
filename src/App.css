@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-size: large;
   font-family: "Turret Road", cursive;
+  display: flex;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    display: block;
+  }
 }
 
 /* .App-logo {
@@ -25,17 +33,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 } */
-
-.header {
-  font-family: inherit;
-  font-weight: small;
-  color: white;
-  text-shadow: 9px 8px 16px #ff14d5;
-  display: flex;
-  flex-direction: row;
+.my-img {
+  flex: 2;
+  /* width: 50%; */
+  height: calc(100vh - 0rem);
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+  background-color: #101011;
 }
 
-button {
+.my-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  /* mix-blend-mode: color-dodge; */
+  mix-blend-mode: hard-light;
+}
+
+.section {
+  margin-left: 3%;
+  flex: 4;
+  justify-content: flex-start;
+}
+
+.header-navs {
+  display: flex;
+  text-shadow: 8px 6px 16px green;
+}
+
+.hme {
+  flex: 3;
+}
+
+.other-navs {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  margin-right: 5%;
+}
+
+a {
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
@@ -46,79 +85,37 @@ button {
   text-shadow: inherit;
 }
 
-button:hover {
+a:hover {
   color: rgb(212, 66, 66);
-  text-shadow: 8px 6px 4px rgba(184, 58, 58, 0.541);
+  text-shadow: 6px 5px 23px rgba(184, 58, 58, 0.541);
 }
 
-button:active {
+a:active {
   background-color: inherit;
   box-shadow: 1px 1px rgb(245, 248, 78);
   transform: translateY(3px);
 }
 
-.header .hm {
-  flex: 2;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 52%;
-}
-.header .abt-cont {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .section .header {
+  .header-navs {
     font-weight: bolder;
     font-size: x-large;
     color: white;
-    display: flex;
-    flex-direction: column;
-  }
-  .header .hm {
-    padding: 2%;
-    margin: 0;
-    justify-content: flex-start;
-  }
-  .header .abt-cont {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1450px) {
   /* For tabs: */
-  .section .header {
+  .header-navs {
     color: white;
-    display: flex;
-    flex-direction: row;
   }
-  .header .hm {
-    text-align: center;
-  }
-}
-
-.sec-body {
-  display: flex;
-  color: white;
-  margin: 2% 0 10% 53%;
-  justify-content: center;
-  text-align: center;
 }
 
 .blinker {
   font-family: inherit;
   font-size: small;
-  text-shadow: 6px 5px 23px #ff14d5;
-  display: inherit;
-  text-align: center;
-  margin-left: 53%;
+  text-shadow: 6px 5px 23px rgb(19, 133, 19);
 }
 
 .App-link {

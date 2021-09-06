@@ -13,34 +13,38 @@ function App() {
     console.log("open home");
     setShow(true);
   };
+
   return (
     <>
       <div className="App">
+        <div className="my-img">
+          <img
+            src="https://avatars.githubusercontent.com/u/60017194?v=4"
+            alt="wcr"
+          />
+        </div>
         <div className="section">
-          {/* section header */}
-          <div className="header">
-            <nav className="hm">
-              <button>🏠127.0.0.1</button>
+          {/* section navs */}
+          <div className="header-navs">
+            <nav className="hme">
+              <a href="# ">127.0.0.1</a>
             </nav>
-            <span className="abt-cont">
-              <button onClick={handleHomeOpen}>?.about</button>
-              <button>work()</button>
-              <button>_contact['']</button>
-            </span>
+            <nav className="other-navs">
+              <a href="# " onClick={handleHomeOpen}>
+                ?.about
+              </a>
+              <a href="# ">work()</a>
+              <a href="# ">_contact['']</a>
+            </nav>
           </div>
           <div className="blinker">
             <Blinker />
           </div>
 
           {/* section body */}
-          <div className="sec-body">
-            {show && (
-              <About
-                name="Martin  Wachira"
-                occupation="Web Software Developer"
-              />
-            )}
-          </div>
+          {show && (
+            <About name="Martin  Wachira" occupation="Web Software Developer" />
+          )}
         </div>
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

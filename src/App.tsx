@@ -22,6 +22,11 @@ function App() {
             src="https://avatars.githubusercontent.com/u/60017194?v=4"
             alt="wcr"
           />
+          <div className="overlay">
+            <div className="text">
+              <u>Martin Wachira Ngari</u>
+            </div>
+          </div>
         </div>
         <div className="section">
           {/* section navs */}

@@ -69,6 +69,7 @@
   width: 100%;
   /* mix-blend-mode: color-dodge; */
   mix-blend-mode: hard-light;
+  box-shadow: 41px 4px 95px 9px grey, -41px 5px 67px 8px white;
 }
 
 .section {

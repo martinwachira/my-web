@@ -23,9 +23,7 @@ function App() {
             alt="wcr"
           />
           <div className="overlay">
-            <div className="text">
-              <u>Martin Wachira Ngari</u>
-            </div>
+            <div className="text">Martin Wachira Ngari</div>
           </div>
         </div>
         <div className="section">

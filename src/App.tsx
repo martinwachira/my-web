@@ -1,36 +1,29 @@
 import "./App.css";
 
-import React, { useState } from "react";
+import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import About from "./components/About";
 import Blinker from "./components/UI/Blinker";
 import MyImg from "./components/UI/MyImg";
+import React from "react";
 
 // import logo from "./logo.svg";
 
 const App: React.FC = () => {
-  const [show, setShow] = useState<boolean>(false);
-  const handleHomeOpen = () => {
-    console.log("open home");
-    setShow(true);
-  };
-
   return (
-    <>
+    <Router>
       <div className="App">
         <MyImg />
         <div className="section">
           {/* section navs */}
           <div className="header-navs">
             <nav className="hme">
-              <a href="# ">127.0.0.1</a>
+              <Link to="/">127.0.0.1</Link>
             </nav>
             <nav className="other-navs">
-              <a href="# " onClick={handleHomeOpen}>
-                ?.about
-              </a>
-              <a href="# ">work()</a>
-              <a href="# ">_contact['']</a>
+              <Link to="/about">?.about</Link>
+              <Link to="/ ">work()</Link>
+              <Link to="/ ">_contact['']</Link>
             </nav>
           </div>
           <div className="blinker">
@@ -38,12 +31,17 @@ const App: React.FC = () => {
           </div>
 
           {/* section body */}
-          {show && (
-            <About name="Martin  Wachira" occupation="Web Software Developer" />
-          )}
+          <Switch>
+            <Route path="/about">
+              <About
+                name="Martin  Wachira"
+                occupation="Web Software Developer"
+              />
+            </Route>
+          </Switch>
         </div>
       </div>
-    </>
+    </Router>
   );
 };
 

@@ -6,6 +6,7 @@ interface Me {
 }
 
 const About: React.FC<Me> = (props) => {
+  console.log("my name is martin");
   return (
     <>
       {props.name}

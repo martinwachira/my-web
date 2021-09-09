@@ -4,10 +4,11 @@ import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import About from "./components/About";
 import Blinker from "./components/UI/Blinker";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
 import MyImg from "./components/UI/MyImg";
 import React from "react";
-
-// import logo from "./logo.svg";
+import Work from "./components/Work";
 
 const App: React.FC = () => {
   return (
@@ -22,8 +23,8 @@ const App: React.FC = () => {
             </nav>
             <nav className="other-navs">
               <Link to="/about">?.about</Link>
-              <Link to="/ ">work()</Link>
-              <Link to="/ ">_contact['']</Link>
+              <Link to="/work">work()</Link>
+              <Link to="/contact">_contact['']</Link>
             </nav>
           </div>
           <div className="blinker">
@@ -37,6 +38,15 @@ const App: React.FC = () => {
                 name="Martin  Wachira"
                 occupation="Web Software Developer"
               />
+            </Route>
+            <Route path="/work">
+              <Work />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/">
+              <Home />
             </Route>
           </Switch>
         </div>

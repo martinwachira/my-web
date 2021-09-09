@@ -8,8 +8,8 @@ import MyImg from "./components/UI/MyImg";
 
 // import logo from "./logo.svg";
 
-function App() {
-  const [show, setShow] = useState<boolean>(true);
+const App: React.FC = () => {
+  const [show, setShow] = useState<boolean>(false);
   const handleHomeOpen = () => {
     console.log("open home");
     setShow(true);
@@ -42,23 +42,9 @@ function App() {
             <About name="Martin  Wachira" occupation="Web Software Developer" />
           )}
         </div>
-        {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       </div>
     </>
   );
-}
+};
 
 export default App;

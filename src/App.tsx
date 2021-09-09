@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 import About from "./components/About";
 import Blinker from "./components/UI/Blinker";
+import MyImg from "./components/UI/MyImg";
 
 // import logo from "./logo.svg";
 
@@ -17,15 +18,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="my-img">
-          <img
-            src="https://avatars.githubusercontent.com/u/60017194?v=4"
-            alt="wcr"
-          />
-          <div className="overlay">
-            <div className="text">Martin Wachira Ngari</div>
-          </div>
-        </div>
+        <MyImg />
         <div className="section">
           {/* section navs */}
           <div className="header-navs">

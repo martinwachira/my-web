@@ -1,11 +1,11 @@
 import React from "react";
 
-interface Me {
+interface AboutMe {
   name: string;
-  occupation: string;
+  occupation?: string;
 }
 
-const About: React.FC<Me> = (props) => {
+const About: React.FC<AboutMe> = (props) => {
   console.log("my name is martin");
   return (
     <>

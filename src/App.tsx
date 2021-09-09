@@ -36,7 +36,7 @@ const App: React.FC = () => {
             <Route path="/about">
               <About
                 name="Martin  Wachira"
-                occupation="Web Software Developer"
+                // occupation="Web Software Developer"
               />
             </Route>
             <Route path="/work">

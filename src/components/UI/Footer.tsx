@@ -3,8 +3,6 @@ import React, { useEffect, useState } from "react";
 import classes from "../Assets/universal.module.css";
 
 const Footer: React.FC = () => {
-  //   let date_today = new Date().toLocaleString();
-  //   const [curTime, setCurTime] = useState("");
   const [date, setDate] = useState(new Date());
 
   useEffect(() => {

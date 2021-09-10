@@ -9,6 +9,9 @@
   .App {
     display: block;
   }
+  .footer {
+    bottom: 0;
+  }
 }
 
 /* -------- default style -------- */
@@ -224,6 +227,14 @@ a:active {
 
 .footer {
   position: fixed;
-  right: 0;
+  right: 3%;
   bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+  }
 }

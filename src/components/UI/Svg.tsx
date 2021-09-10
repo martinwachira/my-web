@@ -10,7 +10,7 @@ const Svg = () => {
         // xmlns:xlink="http://www.w3.org/1999/xlink"
       >
         <title>Group 32</title>
-        <desc>Created with Sketch.</desc>
+        <desc>Created with Sketch "wcr".</desc>
         <g
           id="Website"
           stroke="none"

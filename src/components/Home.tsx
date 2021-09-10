@@ -9,7 +9,10 @@ const Home: React.FC = () => {
       <div className={classes["home-container"]}>
         <h4>
           My name is{" "}
-          <a href="https://www.linkedin.com/in/martin-wachira-82a243117/">
+          <a
+            className={classes["home-links"]}
+            href="https://www.linkedin.com/in/martin-wachira-82a243117/"
+          >
             Martin Wachira
           </a>
           , I am a Software Developer experienced in Frontend-development.

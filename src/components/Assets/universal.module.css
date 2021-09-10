@@ -6,3 +6,8 @@
 .home-container {
   margin-top: 5%;
 }
+
+.home-links {
+  color: springgreen;
+  text-shadow: 2px 6px 11px antiquewhite;
+}

@@ -24,28 +24,28 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M142.409667,50.7365341 C142.409667,49.0123794 143.813338,47.612711 145.535934,47.612711 L374.37407,47.612711 C376.102828,47.612711 377.500337,49.004393 377.500337,50.7365341 L377.500337,180.042016 C377.500337,181.766171 376.096666,183.165839 374.37407,183.165839 L145.535934,183.165839 C143.807176,183.165839 142.409667,181.774157 142.409667,180.042016 L142.409667,50.7365341 Z"
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M240.989547,219.590864 L279.441148,219.590864 L282.037136,253.153923 L238.39356,253.153923 L240.989547,219.590864 Z"
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M222.334407,253.411496 L222.334407,256.926514 C222.334407,259.006825 224.024461,260.699106 226.104395,260.699106 L294.3263,260.699106 C296.402444,260.699106 298.096288,259.006629 298.096288,256.926514 L298.096288,253.411496 C298.096288,253.265769 297.983625,253.153923 297.834738,253.153923 L222.595957,253.153923 C222.450148,253.153923 222.334407,253.269384 222.334407,253.411496 Z"
               id="Keyboard"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
               transform="translate(260.215348, 256.926514) scale(1, -1) translate(-260.215348, -256.926514) "
             ></path>
             <ellipse
@@ -61,7 +61,7 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
               x="101.275074"
               y="159.749752"
               width="51.5470788"
@@ -73,7 +73,7 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
             ></path>
             <rect
               id="Rectangle-11"
@@ -97,7 +97,7 @@ const Svg = () => {
               id="Oval-6"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
               cx="115.853757"
               cy="208.142999"
               rx="3.9051828"
@@ -134,7 +134,7 @@ const Svg = () => {
               id="Oval-7"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
               cx="74.8493371"
               cy="168.725919"
               rx="39.9637045"
@@ -144,7 +144,7 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
               x="319.704966"
               y="120.462761"
               width="192.654351"
@@ -156,20 +156,20 @@ const Svg = () => {
               id="Keyboard"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M430.428848,249.888735 L401.270407,249.88823 C402.433781,252.961493 405.402425,255.091813 408.808279,255.091813 L422.891133,255.091813 C426.2974,255.091813 429.265465,252.961765 430.428848,249.888735 Z"
               id="Notch"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <rect
               id="Screen"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
               x="328.295034"
               y="132.691162"
               width="175.319716"
@@ -189,14 +189,14 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M179.899422,6.23775036 C179.899422,2.21962044 183.168858,-1.040715 187.190674,-1.040715 L292.886465,-1.040715 C296.913475,-1.040715 300.177718,2.21613142 300.177718,6.23775036 L300.177718,14.0496524 L179.899422,14.0496524 L179.899422,6.23775036 Z"
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <ellipse
               id="Oval-5"
@@ -454,14 +454,14 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M414.991426,87.9338775 C414.991426,83.9126798 418.251232,80.6554121 422.277215,80.6554121 L550.373649,80.6554121 C554.397843,80.6554121 557.659437,83.9124627 557.659437,87.9338775 L557.659437,95.7457795 L414.991426,95.7457795 L414.991426,87.9338775 Z"
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <ellipse
               id="Oval-5"
@@ -491,7 +491,7 @@ const Svg = () => {
               id="Oval-6"
               stroke="#f71027"
               strokeWidth="2.34160874"
-              fill="#FFFFFF"
+              fill="black"
               cx="503.247891"
               cy="148.041708"
               rx="26.034552"
@@ -502,28 +502,28 @@ const Svg = () => {
               id="Rectangle-12"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M500.123077,170.937438 L500.123077,177.181728 L506.372704,177.181728 L506.372704,170.937438 L500.123077,170.937438 Z"
               id="Rectangle-12"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M474.088525,145.179742 L474.088525,151.424032 L480.338152,151.424032 L480.338152,145.179742 L474.088525,145.179742 Z"
               id="Rectangle-12"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <path
               d="M525.897284,145.179742 L525.897284,151.424032 L532.146911,151.424032 L532.146911,145.179742 L525.897284,145.179742 Z"
               id="Rectangle-12"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
             ></path>
             <line
               x1="529.282443"
@@ -564,7 +564,7 @@ const Svg = () => {
             <g
               id="Group-60"
               transform="translate(439.463238, 115.519364)"
-              fill="#FFFFFF"
+              fill="black"
               stroke="#f71027"
               strokeWidth="2.08142999"
             >
@@ -597,7 +597,7 @@ const Svg = () => {
               id="Oval-8"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
               cx="632.379269"
               cy="235.982125"
               rx="15.6207312"
@@ -607,7 +607,7 @@ const Svg = () => {
               id="Oval-8"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
               cx="632.379269"
               cy="235.982125"
               rx="9.11209321"
@@ -617,7 +617,7 @@ const Svg = () => {
               id="Oval-8"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="black"
               cx="611.551627"
               cy="212.305859"
               rx="5.20691041"
@@ -628,13 +628,13 @@ const Svg = () => {
               id="Rectangle-16"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
             ></path>
             <rect
               id="Rectangle-16"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
               x="609.728541"
               y="225.054618"
               width="13.5393012"
@@ -656,7 +656,7 @@ const Svg = () => {
               id="Oval-8"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
             ></path>
             <rect
               id="Rectangle-11"
@@ -672,7 +672,7 @@ const Svg = () => {
               id="Rectangle-17"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="#FFFFFF"
+              fill="white"
             ></path>
             <path
               d="M80.1864202,255.299762 C80.1864202,255.551575 79.9821545,255.75571 79.73018,255.75571 L79.73018,255.75571 L72.353427,255.75571 L16.1414223,255.75571 C10.3900278,255.75571 5.72760145,251.09627 5.72760145,245.34856 C5.72760145,239.60085 10.3900278,234.94141 16.1414223,234.94141 L72.353427,234.94141 L79.73018,234.94141 L79.73018,234.94141 C79.9821545,234.94141 80.1864202,235.145545 80.1864202,235.397358"

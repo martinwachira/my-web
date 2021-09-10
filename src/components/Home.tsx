@@ -1,11 +1,12 @@
 import React from "react";
 import Svg from "./UI/Svg";
+import classes from "./Assets/universal.module.css";
 
 const Home: React.FC = () => {
   return (
-    <h2>
+    <div className={classes["uni-align"]}>
       <Svg />
-    </h2>
+    </div>
   );
 };
 

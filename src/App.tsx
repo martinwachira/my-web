@@ -3,7 +3,7 @@ import "./App.css";
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import About from "./components/About";
-import Blinker from "./components/UI/Blinker";
+// import Blinker from "./components/UI/Blinker";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import MyImg from "./components/UI/MyImg";
@@ -27,9 +27,9 @@ const App: React.FC = () => {
               <Link to="/contact">_contact['']</Link>
             </nav>
           </div>
-          <div className="blinker">
+          {/* <div className="blinker">
             <Blinker />
-          </div>
+          </div> */}
 
           {/* section body */}
           <Switch>

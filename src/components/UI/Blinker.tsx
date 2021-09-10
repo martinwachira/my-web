@@ -1,5 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
+import classes from "../Assets/universal.module.css";
+
 const Blinker = () => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
@@ -42,12 +44,12 @@ const Blinker = () => {
   }, [blink]);
 
   return (
-    <>
+    <div className={classes["uni-align"]}>
       <h2 style={{ color: "lightseagreen" }}>
         {" "}
         {`${statements[index].substring(0, subIndex)}${blink ? "|" : " "}`}
       </h2>
-    </>
+    </div>
   );
 };
 export default Blinker;

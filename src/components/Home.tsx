@@ -6,6 +6,15 @@ const Home: React.FC = () => {
   return (
     <div className={classes["uni-align"]}>
       <Svg />
+      <div className={classes["home-container"]}>
+        <h4>
+          My name is{" "}
+          <a href="https://www.linkedin.com/in/martin-wachira-82a243117/">
+            Martin Wachira
+          </a>
+          , I am a Software Developer experienced in Frontend-development.
+        </h4>
+      </div>
     </div>
   );
 };

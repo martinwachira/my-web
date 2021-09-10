@@ -81,7 +81,7 @@
 
 .header-navs {
   display: flex;
-  text-shadow: 8px 6px 16px lightseagreen;
+  text-shadow: 6px 10px 13px lightseagreen;
 }
 
 .hme {
@@ -109,7 +109,7 @@ a {
 
 a:hover {
   /* color: rgb(212, 66, 66); */
-  color: lightseagreen;
+  color: springgreen;
   text-shadow: 6px 5px 23px white;
 }
 
@@ -220,4 +220,10 @@ a:active {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }

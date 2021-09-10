@@ -15,7 +15,8 @@ const Home: React.FC = () => {
           >
             Martin Wachira
           </a>
-          , I am a Software Developer experienced in Frontend-development.
+          , I am a Software Developer mostly experienced in Frontend Web
+          Development.
         </h4>
       </div>
     </div>

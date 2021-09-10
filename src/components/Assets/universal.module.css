@@ -11,3 +11,15 @@
   color: springgreen;
   text-shadow: 2px 6px 11px antiquewhite;
 }
+
+.obj_color {
+  color: yellow;
+}
+
+.date_color {
+  color: rgb(223, 33, 223);
+}
+
+.copy_name {
+  color: rgb(204, 26, 26);
+}

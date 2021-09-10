@@ -5,6 +5,7 @@ import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import About from "./components/About";
 // import Blinker from "./components/UI/Blinker";
 import Contact from "./components/Contact";
+import Footer from "./components/UI/Footer";
 import Home from "./components/Home";
 import MyImg from "./components/UI/MyImg";
 import React from "react";
@@ -49,6 +50,9 @@ const App: React.FC = () => {
               <Home />
             </Route>
           </Switch>
+          <div className="footer">
+            <Footer />
+          </div>
         </div>
       </div>
     </Router>

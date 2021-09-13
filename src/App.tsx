@@ -1,5 +1,6 @@
 import "./App.css";
 
+import { FaLinkedinIn, FaStackOverflow, FaTwitter } from "react-icons/fa";
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import About from "./components/About";
@@ -26,6 +27,15 @@ const App: React.FC = () => {
               <Link to="/about">?.about</Link>
               <Link to="/work">work()</Link>
               <Link to="/contact">_contact['']</Link>
+              <a href="https://www.linkedin.com/in/martin-wachira-82a243117/">
+                <FaLinkedinIn />
+              </a>
+              <a href="https://twitter.com/martinwcr">
+                <FaTwitter />
+              </a>
+              <a href="https://stackoverflow.com/users/13235540/martin-wcr">
+                <FaStackOverflow />
+              </a>
             </nav>
           </div>
           {/* <div className="blinker">

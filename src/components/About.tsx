@@ -11,11 +11,13 @@ const About: React.FC = (props) => {
     <>
       <div className={classes["about-content"]}>
         <p>
-          I ♥ creative frontend development. I'm from Nyeri Kenya and currently
-          living in Nairobi.
+          I ♥ creative frontend development - I'm from Nyeri Kenya and lives in
+          Nairobi.
         </p>
-        <p>fluently writes and speaks English, Swahili and Kikuyu</p>
-        <p style={{ color: "grey" }}>// 3+ years of experience</p>
+        <span style={{ color: "grey" }}>
+          <p>fluently writes and speaks English, Swahili and Kikuyu</p>
+          <p>// 3+ years of experience</p>
+        </span>
         <br />
         <h4 style={{ textAlign: "left" }}>what_i_do</h4>
         <div className={classes.about_main}>

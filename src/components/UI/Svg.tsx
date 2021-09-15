@@ -61,7 +61,7 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
               x="101.275074"
               y="159.749752"
               width="51.5470788"
@@ -73,7 +73,7 @@ const Svg = () => {
               id="Case"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
             ></path>
             <rect
               id="Rectangle-11"
@@ -97,7 +97,7 @@ const Svg = () => {
               id="Oval-6"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
               cx="115.853757"
               cy="208.142999"
               rx="3.9051828"
@@ -597,7 +597,7 @@ const Svg = () => {
               id="Oval-8"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
               cx="632.379269"
               cy="235.982125"
               rx="15.6207312"
@@ -628,13 +628,13 @@ const Svg = () => {
               id="Rectangle-16"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
             ></path>
             <rect
               id="Rectangle-16"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
               x="609.728541"
               y="225.054618"
               width="13.5393012"
@@ -656,7 +656,7 @@ const Svg = () => {
               id="Oval-8"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
             ></path>
             <rect
               id="Rectangle-11"
@@ -672,7 +672,7 @@ const Svg = () => {
               id="Rectangle-17"
               stroke="#f71027"
               strokeWidth="2.08142999"
-              fill="white"
+              fill="#e2e2e2"
             ></path>
             <path
               d="M80.1864202,255.299762 C80.1864202,255.551575 79.9821545,255.75571 79.73018,255.75571 L79.73018,255.75571 L72.353427,255.75571 L16.1414223,255.75571 C10.3900278,255.75571 5.72760145,251.09627 5.72760145,245.34856 C5.72760145,239.60085 10.3900278,234.94141 16.1414223,234.94141 L72.353427,234.94141 L79.73018,234.94141 L79.73018,234.94141 C79.9821545,234.94141 80.1864202,235.145545 80.1864202,235.397358"

@@ -2,7 +2,7 @@
   font-size: large;
   font-family: "Turret Road", cursive;
   display: flex;
-  color: white;
+  color: #e2e2e2;
 }
 
 @media only screen and (max-width: 768px) {
@@ -127,14 +127,14 @@ a:active {
   .header-navs {
     font-weight: bolder;
     font-size: x-large;
-    color: white;
+    color: rgb(226, 226, 226);
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1450px) {
   /* -------- For tabs -------- */
   .header-navs {
-    color: white;
+    color: rgb(226, 226, 226);
   }
 }
 
@@ -220,7 +220,7 @@ a:active {
 
   /* -------- faded in a box -------- */
   background-color: black;
-  color: white;
+  color: rgb(226, 226, 226);
   font-size: 16px;
   padding: 16px 32px;
 }

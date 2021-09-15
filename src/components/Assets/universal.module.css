@@ -40,8 +40,8 @@
   text-align: left;
   display: grid;
   grid-template: 1fr / repeat(4, 1fr);
-  grid-gap: 2rem;
-  grid-row-gap: 0.5rem;
+  grid-gap: 1rem;
+  grid-row-gap: 0.15rem;
 }
 
 .about_main ul {

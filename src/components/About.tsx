@@ -3,26 +3,28 @@ import React, { useEffect, useState } from "react";
 import classes from "./Assets/universal.module.css";
 
 interface AboutMe {
-  experience: number;
+  experienceYears: number;
   startWork: number;
 }
 
 const About: React.FC = (props) => {
   const [myExperience, setMyExperience] = useState<AboutMe>({
-    experience: 0,
+    experienceYears: 0,
     startWork: 2018,
   });
 
   useEffect(() => {
     setMyExperience((prevState) => {
-      return { ...prevState, experience: new Date().getFullYear() };
+      return {
+        ...prevState,
+        experienceYears: new Date().getFullYear(),
+      };
     });
   }, []);
 
-  const experience = +myExperience.experience - myExperience.startWork;
+  const yearsExp = +myExperience.experienceYears - myExperience.startWork;
 
-  // console.log("Years experience", experience);
-  // console.log("myExperience", myExperience);
+  console.log("Years experience", yearsExp);
 
   return (
     <>
@@ -33,7 +35,7 @@ const About: React.FC = (props) => {
         </p>
         <span style={{ color: "grey" }}>
           <p>fluently writes and speaks English, Swahili and Kikuyu</p>
-          <p>// {experience}+ years of experience</p>
+          <p>// {yearsExp}+ years of experience</p>
         </span>
         <br />
         <h4 style={{ textAlign: "left" }}>what_i_do</h4>

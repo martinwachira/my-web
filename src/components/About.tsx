@@ -1,16 +1,14 @@
 import React from "react";
 
-interface AboutMe {
-  name: string;
-  occupation?: string;
-}
+// interface AboutMe {
+//   name: string;
+//   occupation?: string;
+// }
 
-const About: React.FC<AboutMe> = (props) => {
-  console.log("my name is martin");
+const About: React.FC = (props) => {
   return (
     <>
-      {props.name}
-      {props.occupation}
+      <div>I am a creative frontend developer.</div>
     </>
   );
 };

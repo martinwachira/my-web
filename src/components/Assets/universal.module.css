@@ -9,7 +9,7 @@
 
 .home-links {
   color: springgreen;
-  text-shadow: 2px 6px 11px antiquewhite;
+  text-shadow: 2px 6px 60px antiquewhite;
 }
 
 .obj_color {
@@ -22,4 +22,9 @@
 
 .copy_name {
   color: rgb(204, 26, 26);
+}
+
+.typo {
+  font-weight: lighter;
+  font-size: x-small;
 }

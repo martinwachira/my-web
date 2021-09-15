@@ -16,13 +16,13 @@ const Footer: React.FC = () => {
     setDate(new Date());
   };
   return (
-    <h5>
+    <h6 className={classes.typo}>
       <span style={{ color: "springgreen" }}>console.log</span>
       <span className={classes.obj_color}>(</span>'copyright ©{" "}
       <span className={classes.copy_name}>WCR: </span>{" "}
       <span className={classes.date_color}>{date.toLocaleString()}</span>'{" "}
       <span className={classes.obj_color}>)</span>
-    </h5>
+    </h6>
   );
 };
 

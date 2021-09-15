@@ -57,14 +57,14 @@ const About: React.FC = (props) => {
         <h4 style={{ textAlign: "left" }}>what_i_use</h4>
         <div className={classes.about_main}>
           <ul>
-            <li>Jenkins</li>
-            <li>Jest</li>
-            <li>Git</li>
-          </ul>
-          <ul>
             <li>Developer Tools</li>
             <li>ESlint</li>
             <li>Prettier</li>
+          </ul>
+          <ul>
+            <li>Jenkins</li>
+            <li>Jest</li>
+            <li>Git</li>
           </ul>
           <ul>
             <li>SoapUI</li>

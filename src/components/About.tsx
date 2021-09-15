@@ -11,39 +11,60 @@ const About: React.FC = (props) => {
     <>
       <div className={classes["about-content"]}>
         <p>
-          I am a creative frontend developer. From Nyeri Kenya, based in
-          Nairobi.
+          I am a creative frontend developer. From Nyeri Kenya and currently
+          living in Nairobi Kenya.
         </p>
+        <p>I fluently write and speak English, Swahili and Kikuyu</p>
         <p style={{ color: "grey" }}>// 3+ years of experience</p>
         <br />
-        Skills
+        <h4 style={{ textAlign: "left" }}>what_i_do</h4>
         <div className={classes.about_main}>
           <ul>
             <li>Javascript</li>
-            <li>UI/UX Design</li>
+            <li>Typescript</li>
+            <li>Node.js</li>
           </ul>
           <ul>
-            <li>Nodejs</li>
             <li>Redux</li>
-          </ul>
-          <ul>
             <li>React</li>
             <li>Angular</li>
           </ul>
           <ul>
             <li>JQuery</li>
             <li>ES6</li>
+            <li>Axios</li>
           </ul>
           <ul>
-            <li>CSS, HTML</li>
             <li>SASS</li>
+            <li>CSS, HTML</li>
+            <li>UI/UX Design</li>
           </ul>
           <ul>
             <li>Laravel</li>
             <li>Django</li>
           </ul>
+        </div>
+        <h4 style={{ textAlign: "left" }}>what_i_use</h4>
+        <div className={classes.about_main}>
           <ul>
-            <li>Axios</li>
+            <li>Jenkins</li>
+            <li>Jest</li>
+            <li>Git</li>
+          </ul>
+          <ul>
+            <li>Developer Tools</li>
+            <li>ESlint</li>
+            <li>Prettier</li>
+          </ul>
+          <ul>
+            <li>SoapUI</li>
+            <li>Postman</li>
+            <li>Putty</li>
+          </ul>
+          <ul>
+            <li>Composer</li>
+            <li>NPM </li>
+            <li>MaterialUI/Bootstrap</li>
           </ul>
         </div>
       </div>

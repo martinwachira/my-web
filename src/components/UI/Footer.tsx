@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
     setDate(new Date());
   };
   return (
-    <h6 className={classes.typo}>
+    <h6 className={classes.footer_typo}>
       <span style={{ color: "springgreen" }}>console.log</span>
       <span className={classes.obj_color}>(</span>'copyright ©{" "}
       <span className={classes.copy_name}>WCR: </span>{" "}

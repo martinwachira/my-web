@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
 import classes from "./Assets/universal.module.css";
 
 // interface AboutMe {
-//   name: string;
-//   occupation?: string;
+//   // name: string;
+//   // occupation?: string;
+//   experience: Date;
 // }
 
 const About: React.FC = (props) => {
+  const [workStart, setWorkStart] = useState(0);
+
+  useEffect(() => {
+    setWorkStart(new Date().getFullYear());
+  }, []);
+
+  const experience = workStart - 2018;
+
+  console.log("Years experience", experience);
+
   return (
     <>
       <div className={classes["about-content"]}>

@@ -35,7 +35,7 @@ const About: React.FC = (props) => {
         </p>
         <span style={{ color: "grey" }}>
           <p>fluently writes and speaks English, Swahili and Kikuyu</p>
-          <p>// {yearsExp}+ years of experience</p>
+          <p>// {yearsExp}+ years of work experience</p>
         </span>
         <br />
         <h4 style={{ textAlign: "left" }}>what_i_do</h4>

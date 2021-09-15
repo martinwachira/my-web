@@ -15,10 +15,36 @@ const About: React.FC = (props) => {
           Nairobi.
         </p>
         <p style={{ color: "grey" }}>// 3+ years of experience</p>
+        <br />
         Skills
         <div className={classes.about_main}>
-          <span>Frontend</span>
-          <span>Javascript</span>
+          <ul>
+            <li>Javascript</li>
+            <li>UI/UX Design</li>
+          </ul>
+          <ul>
+            <li>Nodejs</li>
+            <li>Redux</li>
+          </ul>
+          <ul>
+            <li>React</li>
+            <li>Angular</li>
+          </ul>
+          <ul>
+            <li>JQuery</li>
+            <li>ES6</li>
+          </ul>
+          <ul>
+            <li>CSS, HTML</li>
+            <li>SASS</li>
+          </ul>
+          <ul>
+            <li>Laravel</li>
+            <li>Django</li>
+          </ul>
+          <ul>
+            <li>Axios</li>
+          </ul>
         </div>
       </div>
     </>

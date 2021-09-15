@@ -37,9 +37,21 @@
 }
 
 .about_main {
-  display: flex;
+  text-align: left;
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  grid-gap: 2rem;
+  grid-row-gap: 1rem;
 }
 
-.about_main span {
-  justify-content: space-between;
+.about_main ul {
+  display: block;
+}
+
+.about_main li {
+  list-style: none;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: rgb(119, 119, 119);
 }

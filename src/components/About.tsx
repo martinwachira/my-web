@@ -2,22 +2,27 @@ import React, { useEffect, useState } from "react";
 
 import classes from "./Assets/universal.module.css";
 
-// interface AboutMe {
-//   // name: string;
-//   // occupation?: string;
-//   experience: Date;
-// }
+interface AboutMe {
+  experience: number;
+  startWork: number;
+}
 
 const About: React.FC = (props) => {
-  const [workStart, setWorkStart] = useState(0);
+  const [myExperience, setMyExperience] = useState<AboutMe>({
+    experience: 0,
+    startWork: 2018,
+  });
 
   useEffect(() => {
-    setWorkStart(new Date().getFullYear());
+    setMyExperience((prevState) => {
+      return { ...prevState, experience: new Date().getFullYear() };
+    });
   }, []);
 
-  const experience = workStart - 2018;
+  const experience = +myExperience.experience - myExperience.startWork;
 
-  console.log("Years experience", experience);
+  // console.log("Years experience", experience);
+  // console.log("myExperience", myExperience);
 
   return (
     <>
@@ -28,7 +33,7 @@ const About: React.FC = (props) => {
         </p>
         <span style={{ color: "grey" }}>
           <p>fluently writes and speaks English, Swahili and Kikuyu</p>
-          <p>// 3+ years of experience</p>
+          <p>// {experience}+ years of experience</p>
         </span>
         <br />
         <h4 style={{ textAlign: "left" }}>what_i_do</h4>

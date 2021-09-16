@@ -55,3 +55,8 @@
   line-height: 1.5em;
   color: rgb(119, 119, 119);
 }
+
+.ind-job {
+  color: gray;
+  line-height: 0.5rem;
+}

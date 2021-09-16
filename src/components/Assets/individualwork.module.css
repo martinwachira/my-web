@@ -1,5 +1,6 @@
 .jobs_section {
   display: flex;
+  justify-content: space-around;
 }
 .jobs {
   justify-content: space-around;
@@ -12,7 +13,7 @@
 
 .jobs ul {
   list-style: none;
-  margin: 0;
+  margin-left: 0.25rem;
   padding: 0;
 }
 

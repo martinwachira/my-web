@@ -4,13 +4,15 @@ import classes from "./Assets/universal.module.css";
 
 interface AboutMe {
   experienceYears: number;
-  startWork: number;
+  experienceMonths: number;
+  startWork: Date;
 }
 
 const About: React.FC = (props) => {
   const [myExperience, setMyExperience] = useState<AboutMe>({
     experienceYears: 0,
-    startWork: 2018,
+    experienceMonths: 0,
+    startWork: new Date("01/01/2018"),
   });
 
   useEffect(() => {
@@ -18,13 +20,19 @@ const About: React.FC = (props) => {
       return {
         ...prevState,
         experienceYears: new Date().getFullYear(),
+        experienceMonths: new Date().getMonth(),
       };
     });
   }, []);
 
-  const yearsExp = +myExperience.experienceYears - myExperience.startWork;
+  const yearsExp =
+    +myExperience.experienceYears - myExperience.startWork.getFullYear();
+
+  const monthsExp =
+    +myExperience.experienceMonths - myExperience.startWork.getMonth();
 
   console.log("Years experience", yearsExp);
+  console.log("Months experience", monthsExp);
 
   return (
     <>
@@ -35,7 +43,10 @@ const About: React.FC = (props) => {
         </p>
         <span style={{ color: "grey" }}>
           <p>fluently writes and speaks English, Swahili and Kikuyu</p>
-          <p>// {yearsExp}+ years of work experience</p>
+          <p>
+            {" "}
+            // {yearsExp} years and {monthsExp}+ months of work experience
+          </p>
         </span>
         <br />
         <h4 style={{ textAlign: "left" }}>what_i_do</h4>

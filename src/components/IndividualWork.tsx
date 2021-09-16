@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import classes from "./Assets/universal.module.css";
+import Card from "./UI/Card";
+import classes from "./Assets/individualwork.module.css";
 
 interface JobDone {
   currentYr: Date;
@@ -24,15 +25,34 @@ const IndividualWork: React.FC = () => {
   const mnthsSaf = startDate.currentYr.getMonth() - safStart.getMonth() + 1;
 
   return (
-    <div className={classes["ind-job"]}>
-      <h4>Product Development Engineer</h4>
-      <span>
-        Safaricom PLC . {safStart.toLocaleString("default", { month: "short" })}{" "}
-        {safStart.getFullYear()} - {yrsSaf}
-        yrs and {mnthsSaf}
-        months{" "}
-      </span>
-    </div>
+    <section className={classes.jobs}>
+      <div className={classes.jobs_section}>
+        <Card>
+          <ul>
+            <h4>Product Development Engineer</h4>
+            <span>
+              Safaricom PLC .{" "}
+              {safStart.toLocaleString("default", { month: "short" })}{" "}
+              {safStart.getFullYear()} - {yrsSaf}
+              yrs and {mnthsSaf}
+              months{" "}
+            </span>
+          </ul>
+        </Card>
+        <Card>
+          <ul>
+            <h4>Product Development Engineer</h4>
+            <span>
+              Safaricom PLC .{" "}
+              {safStart.toLocaleString("default", { month: "short" })}{" "}
+              {safStart.getFullYear()} - {yrsSaf}
+              yrs and {mnthsSaf}
+              months{" "}
+            </span>
+          </ul>
+        </Card>
+      </div>
+    </section>
   );
 };
 

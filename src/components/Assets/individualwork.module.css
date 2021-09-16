@@ -1,0 +1,29 @@
+.jobs_section {
+  display: flex;
+}
+.jobs {
+  justify-content: space-around;
+  color: rgb(75, 75, 75);
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem 2rem;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.jobs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

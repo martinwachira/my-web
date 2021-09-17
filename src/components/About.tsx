@@ -12,7 +12,7 @@ const About: React.FC = (props) => {
   const [myExperience, setMyExperience] = useState<AboutMe>({
     experienceYears: 0,
     experienceMonths: 0,
-    startWork: new Date("01/01/2018"),
+    startWork: new Date("02/01/2018"),
   });
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const About: React.FC = (props) => {
     +myExperience.experienceYears - myExperience.startWork.getFullYear();
 
   const monthsExp =
-    +myExperience.experienceMonths - myExperience.startWork.getMonth();
+    +myExperience.experienceMonths - myExperience.startWork.getMonth() + 1;
 
   console.log("Years experience", yearsExp);
   console.log("Months experience", monthsExp);

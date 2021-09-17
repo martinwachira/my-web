@@ -56,6 +56,21 @@ const IndividualWork: React.FC = () => {
             </span>
           </ul>
         </Card>
+        <Card>
+          <ul>
+            <h4>Frontend Web Developer</h4>
+            <span>
+              Ponea Health LTD .{" "}
+              {poneaStart.toLocaleString("default", { month: "short" })}
+              {" - "}
+              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
+              {poneaEnd.getFullYear()}
+              {" : "}
+              {monthsPonea}
+              months{" "}
+            </span>
+          </ul>
+        </Card>
       </div>
     </section>
   );

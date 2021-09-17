@@ -8,11 +8,11 @@ interface JobDone {
 }
 
 const IndividualWork: React.FC = () => {
-  const [startDate, setStartDate] = useState<JobDone>({
+  const [endDate, setEndDate] = useState<JobDone>({
     currentYr: new Date(),
   });
   useEffect(() => {
-    setStartDate((prevState) => {
+    setEndDate((prevState) => {
       return {
         ...prevState,
         currentYr: new Date(),
@@ -21,8 +21,11 @@ const IndividualWork: React.FC = () => {
   }, []);
 
   const safStart = new Date("08/01/2021");
-  const yrsSaf = startDate.currentYr.getFullYear() - safStart.getFullYear();
-  const mnthsSaf = startDate.currentYr.getMonth() - safStart.getMonth() + 1;
+  const poneaStart = new Date("02/01/2021");
+  const poneaEnd = new Date("08/30/2021");
+  const yrsSaf = endDate.currentYr.getFullYear() - safStart.getFullYear();
+  const mnthsSaf = endDate.currentYr.getMonth() - safStart.getMonth() + 1;
+  const monthsPonea = poneaEnd.getMonth() - poneaStart.getMonth() + 1;
 
   return (
     <section className={classes.jobs}>
@@ -33,20 +36,22 @@ const IndividualWork: React.FC = () => {
             <span>
               Safaricom PLC .{" "}
               {safStart.toLocaleString("default", { month: "short" })}{" "}
-              {safStart.getFullYear()} - {yrsSaf}
-              yrs and {mnthsSaf}
-              months{" "}
+              {safStart.getFullYear()} : {yrsSaf}
+              yrs and {mnthsSaf} months{" "}
             </span>
           </ul>
         </Card>
         <Card>
           <ul>
-            <h4>Product Development Engineer</h4>
+            <h4>Frontend Web Developer</h4>
             <span>
-              Safaricom PLC .{" "}
-              {safStart.toLocaleString("default", { month: "short" })}{" "}
-              {safStart.getFullYear()} - {yrsSaf}
-              yrs and {mnthsSaf}
+              Ponea Health LTD .{" "}
+              {poneaStart.toLocaleString("default", { month: "short" })}
+              {" - "}
+              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
+              {poneaEnd.getFullYear()}
+              {" : "}
+              {monthsPonea}
               months{" "}
             </span>
           </ul>

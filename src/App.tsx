@@ -18,14 +18,7 @@ const App: React.FC = () => {
         <MyImg />
         <div className="section">
           {/* section navs */}
-          <div className="header-navs">
-            <nav className="hme">
-              <Link to="/">127.0.0.1</Link>
-            </nav>
-            <nav className="other-navs">
-              <Navs />
-            </nav>
-          </div>
+          <Navs />
 
           {/* section body */}
           <Switch>

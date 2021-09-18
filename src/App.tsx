@@ -18,9 +18,7 @@ const App: React.FC = () => {
 
         <div className="section">
           {/* section navs */}
-
           <NavBar />
-          {/* <MobNavs /> */}
 
           {/* section body */}
           <SwitchNavs />

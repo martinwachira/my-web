@@ -28,7 +28,10 @@
     display: none;
   }
   .mob-navs {
-    display: block;
-    color: red;
+    display: flex;
+    align-items: center;
+  }
+  .mob-navs .hamburger {
+    cursor: pointer;
   }
 }

@@ -16,7 +16,9 @@ const App: React.FC = () => {
 
         <div className="section">
           {/* section navs */}
-          <Navs />
+          <div className="header-navs">
+            <Navs />
+          </div>
 
           {/* section body */}
           <NavLinks />

@@ -1,15 +1,11 @@
 import "./App.css";
 
-import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
-
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Footer from "./components/UI/Footer";
-import Home from "./components/Home";
 import MyImg from "./components/UI/MyImg";
+import NavLinks from "./components/UI/NavLinks";
 import Navs from "./components/UI/Navs";
 import React from "react";
-import Work from "./components/Work";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App: React.FC = () => {
   return (
@@ -21,20 +17,7 @@ const App: React.FC = () => {
           <Navs />
 
           {/* section body */}
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/work">
-              <Work />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <NavLinks />
           <div className="footer">
             <Footer />
           </div>

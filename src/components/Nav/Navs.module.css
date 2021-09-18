@@ -29,9 +29,23 @@
   }
   .mob-navs {
     display: flex;
-    align-items: center;
+    flex-direction: column;
   }
   .mob-navs .hamburger {
     cursor: pointer;
+  }
+  .mob-navs .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    background-color: #181818;
+    color: lightseagreen;
+    z-index: 1;
+    border-top: 2px solid red;
+    line-height: 2.5rem;
+    align-items: center;
+    width: 12rem;
+    font-weight: bolder;
   }
 }

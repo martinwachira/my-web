@@ -2,14 +2,29 @@ import { FaLinkedinIn, FaStackOverflow, FaTwitter } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 import React from "react";
+import classes from "./Navs.module.css";
 
-const NavLinks: React.FC = () => {
+interface menuProps {
+  isMob?: boolean;
+  closeMobMenu?: any;
+}
+const NavLinks: React.FC<menuProps> = (props) => {
+  console.log("props", props);
+
   return (
-    <>
-      <Link to="/">127.0.0.1</Link>
-      <Link to="/about">?.about</Link>
-      <Link to="/work">work()</Link>
-      <Link to="/contact">_contact['']</Link>
+    <div className={classes["nav-links"]}>
+      <Link onClick={() => props.isMob && props.closeMobMenu()} to="/">
+        127.0.0.1
+      </Link>
+      <Link onClick={() => props.isMob && props.closeMobMenu()} to="/about">
+        ?.about
+      </Link>
+      <Link onClick={() => props.isMob && props.closeMobMenu()} to="/work">
+        work()
+      </Link>
+      <Link onClick={() => props.isMob && props.closeMobMenu()} to="/contact">
+        _contact['']
+      </Link>
       <a href="https://www.linkedin.com/in/martin-wachira-82a243117/">
         <FaLinkedinIn />
       </a>
@@ -19,7 +34,7 @@ const NavLinks: React.FC = () => {
       <a href="https://stackoverflow.com/users/13235540/martin-wcr">
         <FaStackOverflow />
       </a>
-    </>
+    </div>
   );
 };
 

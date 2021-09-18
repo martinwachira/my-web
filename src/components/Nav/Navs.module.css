@@ -4,21 +4,31 @@
   justify-content: space-between;
 }
 
-/* .hme {
-  flex: 3;
-} */
-
-.other-navs {
+.main-navs {
   display: flex;
   justify-content: space-between;
   flex: 2;
 }
 
-.other-navs a:first-of-type {
+.mob-navs {
+  display: none;
+}
+
+.main-navs a:first-of-type {
   flex: 5;
 }
 
-.other-navs a:not(:first-of-type) {
+.main-navs a:not(:first-of-type) {
   justify-content: flex-end;
   margin-right: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-navs {
+    display: none;
+  }
+  .mob-navs {
+    display: block;
+    color: red;
+  }
 }

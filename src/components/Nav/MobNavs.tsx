@@ -7,7 +7,7 @@ import classes from "./Navs.module.css";
 const MobNavs: React.FC = () => {
   return (
     <>
-      <nav className={classes["mob-other-navs"]}>
+      <nav className={classes["mob-navs"]}>
         <NavLinks />
       </nav>
     </>

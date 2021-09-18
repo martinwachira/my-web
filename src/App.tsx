@@ -2,10 +2,12 @@ import "./App.css";
 
 import Footer from "./components/UI/Footer";
 import MyImg from "./components/UI/MyImg";
-import NavLinks from "./components/Nav/NavLinks";
-import Navs from "./components/Nav/Navs";
+import NavBar from "./components/Nav/NavBar";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import SwitchNavs from "./components/Nav/SwitchNavs";
+
+// import MobNavs from "./components/UI/Nav/MobNavs";
 
 const App: React.FC = () => {
   return (
@@ -16,12 +18,12 @@ const App: React.FC = () => {
 
         <div className="section">
           {/* section navs */}
-          <div className="header-navs">
-            <Navs />
-          </div>
+
+          <NavBar />
+          {/* <MobNavs /> */}
 
           {/* section body */}
-          <NavLinks />
+          <SwitchNavs />
 
           {/* section footer */}
           <div className="footer">

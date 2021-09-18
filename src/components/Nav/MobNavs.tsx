@@ -1,19 +1,17 @@
 // import { FaLinkedinIn, FaStackOverflow, FaTwitter } from "react-icons/fa";
 
-// import { Link } from "react-router-dom";
-
 import NavLinks from "./NavLinks";
 import React from "react";
 import classes from "./Navs.module.css";
 
-const Navs: React.FC = () => {
+const MobNavs: React.FC = () => {
   return (
     <>
-      <nav className={classes["other-navs"]}>
+      <nav className={classes["mob-other-navs"]}>
         <NavLinks />
       </nav>
     </>
   );
 };
 
-export default Navs;
+export default MobNavs;

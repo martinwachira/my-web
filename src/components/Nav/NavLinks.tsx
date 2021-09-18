@@ -1,28 +1,24 @@
-import { Route, Switch } from "react-router-dom";
+import { FaLinkedinIn, FaStackOverflow, FaTwitter } from "react-icons/fa";
 
-import About from "../About";
-import Contact from "../Contact";
-import Home from "../Home";
+import { Link } from "react-router-dom";
 import React from "react";
-import Work from "../Work";
 
 const NavLinks: React.FC = () => {
   return (
     <>
-      <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/work">
-          <Work />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+      <Link to="/">127.0.0.1</Link>
+      <Link to="/about">?.about</Link>
+      <Link to="/work">work()</Link>
+      <Link to="/contact">_contact['']</Link>
+      <a href="https://www.linkedin.com/in/martin-wachira-82a243117/">
+        <FaLinkedinIn />
+      </a>
+      <a href="https://twitter.com/martinwcr">
+        <FaTwitter />
+      </a>
+      <a href="https://stackoverflow.com/users/13235540/martin-wcr">
+        <FaStackOverflow />
+      </a>
     </>
   );
 };

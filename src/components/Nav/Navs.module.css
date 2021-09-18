@@ -1,0 +1,24 @@
+.header-navs {
+  display: flex;
+  text-shadow: 6px 10px 13px lightseagreen;
+  justify-content: space-between;
+}
+
+/* .hme {
+  flex: 3;
+} */
+
+.other-navs {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+}
+
+.other-navs a:first-of-type {
+  flex: 5;
+}
+
+.other-navs a:not(:first-of-type) {
+  justify-content: flex-end;
+  margin-right: 5%;
+}

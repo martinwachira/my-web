@@ -10,6 +10,10 @@
   flex: 2;
 }
 
+.nav-links {
+  flex-direction: row;
+}
+
 .mob-navs {
   display: none;
 }
@@ -34,6 +38,7 @@
   .mob-navs .hamburger {
     cursor: pointer;
   }
+
   .mob-navs .nav-links {
     display: flex;
     flex-direction: column;

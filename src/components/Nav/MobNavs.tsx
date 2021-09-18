@@ -31,12 +31,14 @@ const MobNavs: React.FC = () => {
   const closeMobMenuHandler = () => setOpenMenu(!openMenu);
   return (
     <>
-      <nav className={classes["mob-navs"]}>
+      <div className={classes["mob-navs"]}>
         {openMenu ? closeIcon : hamIcon}
-        {openMenu && (
-          <NavLinks isMob={openMenu} closeMobMenu={closeMobMenuHandler} />
-        )}
-      </nav>
+        <div className={classes["nav-links"]}>
+          {openMenu && (
+            <NavLinks isMob={openMenu} closeMobMenu={closeMobMenuHandler} />
+          )}
+        </div>
+      </div>
     </>
   );
 };

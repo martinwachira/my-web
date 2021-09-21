@@ -65,3 +65,11 @@
   color: rebeccapurple;
   text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+  .about_main {
+    display: block;
+    column-count: 3;
+    margin-right: 6%;
+  }
+}

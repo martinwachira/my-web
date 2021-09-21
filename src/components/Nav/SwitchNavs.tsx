@@ -5,6 +5,7 @@ import Contact from "../Contact";
 import Home from "../Home";
 import React from "react";
 import Work from "../Work";
+import WorkDetails from "./../WorkDetails";
 
 const NavLinks: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const NavLinks: React.FC = () => {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/work-details">
+          <WorkDetails />
         </Route>
         <Route path="/">
           <Home />

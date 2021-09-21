@@ -11,9 +11,6 @@ interface menuProps {
 const NavLinks: React.FC<menuProps> = (props) => {
   return (
     <>
-      {/* <div
-        className={`${classes["nav-links"]}  ${props.isMob ? "active" : ""}`}
-      > */}
       <Link onClick={() => props.isMob && props.closeMobMenu()} to="/">
         127.0.0.1
       </Link>
@@ -35,7 +32,6 @@ const NavLinks: React.FC<menuProps> = (props) => {
       <a href="https://stackoverflow.com/users/13235540/martin-wcr">
         <FaStackOverflow />
       </a>
-      {/* </div> */}
     </>
   );
 };

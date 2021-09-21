@@ -106,7 +106,7 @@ const About: React.FC = (props) => {
           <ul>
             <li>Composer</li>
             <li>NPM </li>
-            <li>MaterialUI/Bootstrap</li>
+            <li>MaterialUI / Bootstrap</li>
           </ul>
         </div>
       </div>

@@ -7,7 +7,7 @@
 }
 
 .card:hover {
-  color: whitesmoke;
-  background-color: darkmagenta;
+  color: greenyellow;
+  background-color: rebeccapurple;
   cursor: pointer;
 }

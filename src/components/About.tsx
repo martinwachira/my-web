@@ -37,10 +37,12 @@ const About: React.FC = (props) => {
   return (
     <>
       <div className={classes["about-content"]}>
-        <p>
-          I ♥ creative frontend development - I'm from Nyeri Kenya and lives in
-          Nairobi.
-        </p>
+        <nav style={{ color: "rebeccapurple" }}>
+          <p>
+            I ♥ creative frontend development - I'm from Nyeri Kenya and lives
+            in Nairobi.
+          </p>
+        </nav>
         <span style={{ color: "grey" }}>
           <p>fluently writes and speaks English, Swahili and Kikuyu</p>
           <p>
@@ -49,7 +51,7 @@ const About: React.FC = (props) => {
           </p>
         </span>
         <br />
-        <h4 style={{ textAlign: "left" }}>what_i_do</h4>
+        <h4 className={classes.headings}>what_i_do</h4>
         <div className={classes.about_main}>
           <ul>
             <li>Javascript</li>
@@ -84,7 +86,7 @@ const About: React.FC = (props) => {
             <li>MongoDB</li>
           </ul>
         </div>
-        <h4 style={{ textAlign: "left" }}>what_i_use</h4>
+        <h4 className={classes.headings}>what_i_use</h4>
         <div className={classes.about_main}>
           <ul>
             <li>Developer Tools</li>

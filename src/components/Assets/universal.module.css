@@ -60,3 +60,8 @@
   color: gray;
   line-height: 0.5rem;
 }
+
+.headings {
+  color: rebeccapurple;
+  text-align: left;
+}

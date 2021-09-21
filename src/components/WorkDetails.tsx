@@ -1,7 +1,7 @@
 import React from "react";
 
 const WorkDetails: React.FC = () => {
-    return ();
+  return <></>;
 };
 
 export default WorkDetails;

@@ -37,7 +37,7 @@ const About: React.FC = (props) => {
   return (
     <>
       <div className={classes["about-content"]}>
-        <nav style={{ color: "rebeccapurple" }}>
+        <nav style={{ color: "#ca6fca" }}>
           <p>
             I ♥ creative frontend development - I'm from Nyeri Kenya and lives
             in Nairobi.

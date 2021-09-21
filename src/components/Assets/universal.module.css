@@ -56,20 +56,22 @@
   color: rgb(119, 119, 119);
 }
 
-.ind-job {
-  color: gray;
-  line-height: 0.5rem;
-}
-
 .headings {
   color: rebeccapurple;
   text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
+  .headings {
+    color: #ca6fca;
+  }
   .about_main {
     display: block;
     column-count: 3;
     margin-right: 6%;
+  }
+
+  .about_main li {
+    color: rgb(250, 243, 243);
   }
 }

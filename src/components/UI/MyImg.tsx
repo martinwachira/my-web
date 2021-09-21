@@ -1,7 +1,7 @@
 import "./../../App.css";
 
 import React from "react";
-import classes from "./myImg.module.css";
+import classes from "../Assets/myImg.module.css";
 
 const MyImg: React.FC = () => {
   return (

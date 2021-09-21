@@ -72,6 +72,64 @@ const IndividualWork: React.FC = () => {
           </ul>
         </Card>
       </div>
+      <div className={classes.jobs_section}>
+        <Card>
+          <ul>
+            <h4>Product Development Engineer</h4>
+            <span>
+              Safaricom PLC .{" "}
+              {safStart.toLocaleString("default", { month: "short" })}{" "}
+              {safStart.getFullYear()} : {yrsSaf}
+              yrs and {mnthsSaf} months{" "}
+            </span>
+          </ul>
+        </Card>
+        <Card>
+          <ul>
+            <h4>Frontend Web Developer</h4>
+            <span>
+              Ponea Health LTD .{" "}
+              {poneaStart.toLocaleString("default", { month: "short" })}
+              {" - "}
+              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
+              {poneaEnd.getFullYear()}
+              {" : "}
+              {monthsPonea}
+              months{" "}
+            </span>
+          </ul>
+        </Card>
+        <Card>
+          <ul>
+            <h4>Frontend Web Developer</h4>
+            <span>
+              Ponea Health LTD .{" "}
+              {poneaStart.toLocaleString("default", { month: "short" })}
+              {" - "}
+              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
+              {poneaEnd.getFullYear()}
+              {" : "}
+              {monthsPonea}
+              months{" "}
+            </span>
+          </ul>
+        </Card>
+      </div>
+      <Card>
+        <ul>
+          <h4>Frontend Web Developer</h4>
+          <span>
+            Ponea Health LTD .{" "}
+            {poneaStart.toLocaleString("default", { month: "short" })}
+            {" - "}
+            {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
+            {poneaEnd.getFullYear()}
+            {" : "}
+            {monthsPonea}
+            months{" "}
+          </span>
+        </ul>
+      </Card>
     </section>
   );
 };

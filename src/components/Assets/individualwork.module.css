@@ -28,3 +28,9 @@
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 76px) {
+  .jobs_section {
+    display: block;
+  }
+}

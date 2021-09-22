@@ -32,12 +32,16 @@ const IndividualWork: React.FC = () => {
       <div className={classes.jobs_section}>
         <Card>
           <ul>
-            <h4>Product Development Engineer</h4>
+            <h4>Software Developer</h4>
             <span>
-              Safaricom PLC .{" "}
-              {safStart.toLocaleString("default", { month: "short" })}{" "}
-              {safStart.getFullYear()} : {yrsSaf}
-              yrs and {mnthsSaf} months{" "}
+              Bespoke Interactive LTD .{" "}
+              {poneaStart.toLocaleString("default", { month: "short" })}
+              {" - "}
+              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
+              {poneaEnd.getFullYear()}
+              {" : "}
+              {monthsPonea}
+              months{" "}
             </span>
           </ul>
         </Card>
@@ -117,16 +121,15 @@ const IndividualWork: React.FC = () => {
       </div>
       <Card>
         <ul>
-          <h4>Frontend Web Developer</h4>
+          <h4>
+            Product Development Engineer<i> (current)</i>
+          </h4>
+
           <span>
-            Ponea Health LTD .{" "}
-            {poneaStart.toLocaleString("default", { month: "short" })}
-            {" - "}
-            {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
-            {poneaEnd.getFullYear()}
-            {" : "}
-            {monthsPonea}
-            months{" "}
+            Safaricom PLC .{" "}
+            {safStart.toLocaleString("default", { month: "short" })}{" "}
+            {safStart.getFullYear()} : {yrsSaf}
+            yrs and {mnthsSaf} months{" "}
           </span>
         </ul>
       </Card>

@@ -2,7 +2,6 @@ import { FaLinkedinIn, FaStackOverflow, FaTwitter } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 import React from "react";
-import classes from "./Navs.module.css";
 
 interface menuProps {
   isMob?: boolean;

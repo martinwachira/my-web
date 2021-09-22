@@ -74,12 +74,12 @@ const About: React.FC = (props) => {
           <ul>
             <li>Laravel</li>
             <li>Django</li>
+            <li>MongoDB</li>
           </ul>
           <ul>
             <li>MySQL</li>
             <li>Microsoft SQL Server</li>
             <li>PostgreSQL</li>
-            <li>MongoDB</li>
           </ul>
         </div>
         <h4 className={classes.headings}>what_i_use</h4>
@@ -89,7 +89,6 @@ const About: React.FC = (props) => {
             <li>ESlint</li>
             <li>Prettier</li>
             <li>Git</li>
-            <li>NPM </li>
           </ul>
           <ul>
             <li>Jenkins</li>
@@ -102,6 +101,7 @@ const About: React.FC = (props) => {
             <li>Putty</li>
           </ul>
           <ul>
+            <li>NPM / Yarn </li>
             <li>Composer</li>
             <li>MaterialUI</li>
           </ul>

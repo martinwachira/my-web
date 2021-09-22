@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-around;
 }
+
 .jobs {
   justify-content: space-around;
   color: rgb(75, 75, 75);
-  max-width: 60rem;
-  width: 90%;
-  margin: 2rem 2rem;
+  /* max-width: 60rem; */
+  width: 98%;
+  margin-left: 0.15rem;
   animation: jobs-appear 1s ease-out forwards;
 }
 
@@ -29,8 +30,13 @@
   }
 }
 
-@media only screen and (max-width: 76px) {
+@media only screen and (max-width: 768px) {
   .jobs_section {
     display: block;
+  }
+
+  .jobs {
+    width: 96%;
+    margin: 1rem 0.15rem;
   }
 }

@@ -78,8 +78,6 @@ const About: React.FC = (props) => {
           <ul>
             <li>MySQL</li>
             <li>Microsoft SQL Server</li>
-          </ul>
-          <ul>
             <li>PostgreSQL</li>
             <li>MongoDB</li>
           </ul>
@@ -90,11 +88,11 @@ const About: React.FC = (props) => {
             <li>Developer Tools</li>
             <li>ESlint</li>
             <li>Prettier</li>
+            <li>Git</li>
           </ul>
           <ul>
             <li>Jenkins</li>
             <li>Jest</li>
-            <li>Git</li>
           </ul>
           <ul>
             <li>SoapUI</li>

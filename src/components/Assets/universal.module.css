@@ -46,6 +46,8 @@
 
 .about_main ul {
   display: block;
+  margin-top: inherit;
+  margin-bottom: inherit;
 }
 
 .about_main li {

@@ -89,10 +89,12 @@ const About: React.FC = (props) => {
             <li>ESlint</li>
             <li>Prettier</li>
             <li>Git</li>
+            <li>NPM </li>
           </ul>
           <ul>
             <li>Jenkins</li>
             <li>Jest</li>
+            <li>Bootstrap</li>
           </ul>
           <ul>
             <li>SoapUI</li>
@@ -101,8 +103,7 @@ const About: React.FC = (props) => {
           </ul>
           <ul>
             <li>Composer</li>
-            <li>NPM </li>
-            <li>MaterialUI / Bootstrap</li>
+            <li>MaterialUI</li>
           </ul>
         </div>
       </div>

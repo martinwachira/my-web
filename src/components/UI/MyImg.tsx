@@ -10,8 +10,8 @@ const MyImg: React.FC = () => {
         src="https://avatars.githubusercontent.com/u/60017194?v=4"
         alt="wcr"
       />
-      <div className="overlay">
-        <div className="text">Martin Wachira Ngari</div>
+      <div className={classes.overlay}>
+        <div className={classes.text}>Martin Wachira Ngari</div>
       </div>
     </div>
   );

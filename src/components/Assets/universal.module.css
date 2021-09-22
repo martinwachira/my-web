@@ -61,6 +61,10 @@
   text-align: left;
 }
 
+.svg {
+  width: 70%;
+}
+
 @media only screen and (max-width: 768px) {
   .headings {
     color: #ca6fca;
@@ -72,5 +76,9 @@
 
   .about_main li {
     color: rgb(250, 243, 243);
+  }
+
+  .svg {
+    width: auto;
   }
 }

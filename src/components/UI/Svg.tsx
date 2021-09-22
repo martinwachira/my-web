@@ -1,9 +1,10 @@
+import classes from "../Assets/universal.module.css";
+
 const Svg = () => {
   return (
     <div>
       <svg
-        width="560px"
-        height="215px"
+        className={classes.svg}
         viewBox="0 0 650 265"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

@@ -1,10 +1,10 @@
 .uni-align {
   text-align: center;
-  margin-top: 6%;
+  margin-top: 15%;
 }
 
 .home-container {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .home-links {
@@ -30,13 +30,14 @@
 }
 
 .about-content {
-  margin-top: 5%;
+  margin-top: 7%;
   text-align: center;
   font-weight: lighter;
   font-size: medium;
 }
 
 .about_main {
+  margin-top: 3%;
   text-align: left;
   display: grid;
   grid-template: 1fr / repeat(4, 1fr);

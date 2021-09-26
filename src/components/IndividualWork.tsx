@@ -27,11 +27,15 @@ const IndividualWork: React.FC = () => {
   const mnthsSaf = endDate.currentYr.getMonth() - safStart.getMonth() + 1;
   const monthsPonea = poneaEnd.getMonth() - poneaStart.getMonth() + 1;
 
+  const handleJobDetails = () => {
+    alert("more job details");
+  };
+
   return (
     <section className={classes.jobs}>
       <div className={classes.jobs_section}>
         <Card>
-          <ul>
+          <ul onClick={handleJobDetails}>
             <h4>Software Developer</h4>
             <span>
               Bespoke Interactive LTD .{" "}

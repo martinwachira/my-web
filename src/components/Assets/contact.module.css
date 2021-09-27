@@ -14,7 +14,7 @@
   display: block;
   width: 50%;
   font: inherit;
-  padding: 0.2rem;
+  padding: 1rem;
   border-radius: 12px;
   border: 1px solid #ccc;
 }
@@ -22,15 +22,18 @@
 .control input:focus,
 .control textarea:focus {
   outline: none;
-  border-color: #230052;
+  border-color: springgreen;
+  cursor: pointer;
 }
 
 .control button {
   cursor: pointer;
   padding: 1%;
   border-radius: 1rem;
+  border: 1px solid springgreen;
 }
 
 .control button:hover {
   background-color: springgreen;
+  border: 1px solid #ccc;
 }

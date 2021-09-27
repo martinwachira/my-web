@@ -7,7 +7,7 @@ import uniClasses from "./Assets/universal.module.css";
 // import TextField from "@mui/material/TextField";
 
 const Contact: React.FC = () => {
-  const nameRef = useRef<HTMLInputElement>(null);
+  const nameRef = useRef<HTMLInputElement | null>(null);
   const addressRef = useRef<HTMLInputElement>(null);
   const remarksRef = useRef<HTMLTextAreaElement>(null);
 
@@ -15,15 +15,14 @@ const Contact: React.FC = () => {
     e.preventDefault();
 
     const remarks = {
-      name: nameRef.current,
-      address: addressRef.current,
-      remarks: remarksRef.current,
+      name: nameRef?.current?.value,
+      address: addressRef?.current?.value,
+      remarks: remarksRef?.current?.value,
     };
+    console.log("name ref", remarks);
 
     postRemarks(remarks);
   };
-
-  console.log("name ref", nameRef);
 
   return (
     <form onSubmit={submitHandler}>

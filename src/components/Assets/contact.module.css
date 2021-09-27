@@ -24,3 +24,13 @@
   outline: none;
   border-color: #230052;
 }
+
+.control button {
+  cursor: pointer;
+  padding: 1%;
+  border-radius: 1rem;
+}
+
+.control button:hover {
+  background-color: springgreen;
+}

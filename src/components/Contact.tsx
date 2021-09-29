@@ -70,27 +70,7 @@ const Contact: React.FC = () => {
             onChange={inputCHangeHandler}
           ></textarea>
         </div>
-        {/* <div className={classes.control}>
-        <label htmlFor="date">Release Date</label>
-        <input type="text" id="date" ref={releaseDateRef} />
-      </div> */}
         <button>Send your Remarks</button>
-        {/* <TextField
-        style={{ color: "white" }}
-        id="outlined-basic"
-        label="Outlined"
-        variant="outlined"
-      />
-      <TextField id="filled-basic" label="Filled" variant="filled" />
-      <TextField id="standard-basic" label="Standard" variant="standard" />
-      <TextField
-        id="outlined-read-only-input"
-        label="Read Only"
-        defaultValue="Hello World"
-        InputProps={{
-          readOnly: true,
-        }}
-      /> */}
       </div>
     </form>
   );

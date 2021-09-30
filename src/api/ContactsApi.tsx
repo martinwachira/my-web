@@ -13,5 +13,4 @@ export async function postRemarks(remarks: any) {
   if (res.status === 200) {
     console.log("data", data);
   }
-  // console.log("posting data");
 }

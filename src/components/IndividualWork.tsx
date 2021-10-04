@@ -88,16 +88,12 @@ const IndividualWork: React.FC = () => {
         </Card>
         <Card>
           <ul>
-            <h4>Frontend Web Developer</h4>
+            <h4>Intern</h4>
             <span>
-              Ponea Health LTD .{" "}
-              {poneaStart.toLocaleString("default", { month: "short" })}
+              Mother and Child TV . Aug 2017
               {" - "}
-              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
-              {poneaEnd.getFullYear()}
-              {" : "}
-              {monthsPonea}
-              months{" "}
+              Nov 2017
+              {" : "}4 months{" "}
             </span>
           </ul>
         </Card>

@@ -21,11 +21,14 @@ const IndividualWork: React.FC = () => {
   }, []);
 
   const safStart = new Date("08/01/2021");
+  const upworkStart = new Date("05/01/2017");
   const poneaStart = new Date("02/01/2021");
   const poneaEnd = new Date("08/30/2021");
   const yrsSaf = endDate.currentYr.getFullYear() - safStart.getFullYear();
   const mnthsSaf = endDate.currentYr.getMonth() - safStart.getMonth() + 1;
   const monthsPonea = poneaEnd.getMonth() - poneaStart.getMonth() + 1;
+  const monthsUpwork = poneaEnd.getMonth() - poneaEnd.getMonth() + 1;
+  const yrsUpwork = poneaEnd.getFullYear() - upworkStart.getFullYear();
 
   const handleJobDetails = () => {
     alert("more job details");
@@ -66,16 +69,16 @@ const IndividualWork: React.FC = () => {
         </Card>
         <Card>
           <ul>
-            <h4>Frontend Web Developer</h4>
+            <h4>Data/Web Specialist</h4>
             <span>
-              Ponea Health LTD .{" "}
-              {poneaStart.toLocaleString("default", { month: "short" })}
+              Upwork .{" "}
+              {upworkStart.toLocaleString("default", { month: "short" })}{" "}
+              {upworkStart.getFullYear()}
               {" - "}
               {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
               {poneaEnd.getFullYear()}
               {" : "}
-              {monthsPonea}
-              months{" "}
+              {yrsUpwork} yrs and {monthsUpwork} month{" "}
             </span>
           </ul>
         </Card>
@@ -89,21 +92,6 @@ const IndividualWork: React.FC = () => {
               {safStart.toLocaleString("default", { month: "short" })}{" "}
               {safStart.getFullYear()} : {yrsSaf}
               yrs and {mnthsSaf} months{" "}
-            </span>
-          </ul>
-        </Card>
-        <Card>
-          <ul>
-            <h4>Frontend Web Developer</h4>
-            <span>
-              Ponea Health LTD .{" "}
-              {poneaStart.toLocaleString("default", { month: "short" })}
-              {" - "}
-              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
-              {poneaEnd.getFullYear()}
-              {" : "}
-              {monthsPonea}
-              months{" "}
             </span>
           </ul>
         </Card>

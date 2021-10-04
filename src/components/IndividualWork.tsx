@@ -41,14 +41,10 @@ const IndividualWork: React.FC = () => {
           <ul onClick={handleJobDetails}>
             <h4>Software Developer</h4>
             <span>
-              Bespoke Interactive LTD .{" "}
-              {poneaStart.toLocaleString("default", { month: "short" })}
+              Bespoke Interactive LTD . Jan 2018
               {" - "}
-              {poneaEnd.toLocaleString("default", { month: "short" })}{" "}
-              {poneaEnd.getFullYear()}
-              {" : "}
-              {monthsPonea}
-              months{" "}
+              Aug 2019
+              {" : "}1 yr and 8 months{" "}
             </span>
           </ul>
         </Card>
@@ -86,13 +82,8 @@ const IndividualWork: React.FC = () => {
       <div className={classes.jobs_section}>
         <Card>
           <ul>
-            <h4>Product Development Engineer</h4>
-            <span>
-              Safaricom PLC .{" "}
-              {safStart.toLocaleString("default", { month: "short" })}{" "}
-              {safStart.getFullYear()} : {yrsSaf}
-              yrs and {mnthsSaf} months{" "}
-            </span>
+            <h4>Software Developer</h4>
+            <span>Fleetcon Logistics . Nov - Feb 2020 : 4 months </span>
           </ul>
         </Card>
         <Card>

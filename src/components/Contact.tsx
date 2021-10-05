@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import classes from "./Assets/contact.module.css";
 import { postRemarks } from "../api/ContactsApi";
-import uniClasses from "./Assets/universal.module.css";
 
 const Contact: React.FC = () => {
   const [state, setState] = useState({
@@ -38,10 +37,10 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <form onSubmit={submitHandler}>
-      <div className={classes.control}>
-        <div className={uniClasses["about-content"]}>
-          <h2>Contact</h2>
+    <div className={classes["main-sec"]}>
+      <form onSubmit={submitHandler}>
+        <h2>Contact</h2>
+        <div className={classes.control}>
           <label htmlFor="name">Name</label>
           <input
             type="text"
@@ -71,8 +70,8 @@ const Contact: React.FC = () => {
           ></textarea>
         </div>
         <button>Send your Remarks</button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
 

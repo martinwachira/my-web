@@ -68,8 +68,8 @@ const Contact: React.FC = () => {
             value={state.remarks}
             onChange={inputCHangeHandler}
           ></textarea>
-          <button>Send your Remarks</button>
         </div>
+        <button>Send your Remarks</button>
       </form>
     </div>
   );

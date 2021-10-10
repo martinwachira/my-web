@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Card from "./UI/Card";
+import { ModalHover } from "react-modal-hover";
 import classes from "./Assets/individualwork.module.css";
 
 interface JobDone {
@@ -31,14 +32,14 @@ const IndividualWork: React.FC = () => {
   const yrsUpwork = poneaEnd.getFullYear() - upworkStart.getFullYear();
 
   const handleJobDetails = () => {
-    alert("more job details");
+    return <p style={{ color: "white" }}>Some more test Details</p>;
   };
 
   return (
     <section className={classes.jobs}>
       <div className={classes.jobs_section}>
         <Card>
-          <ul onClick={handleJobDetails}>
+          <ul onMouseOver={handleJobDetails}>
             <h4>Software Developer</h4>
             <span>
               Bespoke Interactive LTD . Jan 2018

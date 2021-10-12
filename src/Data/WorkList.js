@@ -1,2 +1,4 @@
-export const saf = "safaricom";
+const yrsSaf = 3;
+
+export const saf = `safaricom ${yrsSaf}`;
 export const ponea = "ponea";

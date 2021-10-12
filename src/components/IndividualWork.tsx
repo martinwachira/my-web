@@ -1,18 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { ponea, saf } from "../Data/WorkList";
 
 import Box from "@mui/material/Box";
 import Card from "./UI/Card";
 import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
 import classes from "./Assets/individualwork.module.css";
-
-// import { ponea, saf } from "../Data/WorkList";
-
-
-
-
-
-
 
 const style = {
   position: "absolute" as "absolute",
@@ -45,6 +38,8 @@ const IndividualWork: React.FC = () => {
       };
     });
   }, []);
+
+  console.log(saf, "-", ponea);
 
   const safStart = new Date("08/01/2021");
   const upworkStart = new Date("05/01/2017");

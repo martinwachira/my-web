@@ -6,6 +6,14 @@ import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
 import classes from "./Assets/individualwork.module.css";
 
+// import { ponea, saf } from "../Data/WorkList";
+
+
+
+
+
+
+
 const style = {
   position: "absolute" as "absolute",
   top: "50%",

@@ -1,23 +1,25 @@
 import React, { useEffect, useState } from "react";
 import { ponea, saf } from "../Data/WorkList";
 
-import Box from "@mui/material/Box";
 import Card from "./UI/Card";
-import Modal from "@mui/material/Modal";
-import Typography from "@mui/material/Typography";
 import classes from "./Assets/individualwork.module.css";
 
-const style = {
-  position: "absolute" as "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
+// import Box from "@mui/material/Box";
+
+// import Modal from "@mui/material/Modal";
+// import Typography from "@mui/material/Typography";
+
+// const style = {
+//   position: "absolute" as "absolute",
+//   top: "50%",
+//   left: "50%",
+//   transform: "translate(-50%, -50%)",
+//   width: 400,
+//   bgcolor: "background.paper",
+//   border: "2px solid #000",
+//   boxShadow: 24,
+//   p: 4,
+// };
 
 interface JobDone {
   currentYr: Date;
@@ -26,7 +28,7 @@ interface JobDone {
 const IndividualWork: React.FC = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  // const handleClose = () => setOpen(false);
   const [endDate, setEndDate] = useState<JobDone>({
     currentYr: new Date(),
   });
@@ -53,7 +55,7 @@ const IndividualWork: React.FC = () => {
 
   return (
     <section className={classes.jobs}>
-      <Modal
+      {/* <Modal
         open={open}
         onMouseOut={handleClose}
         aria-labelledby="modal-modal-title"
@@ -67,7 +69,7 @@ const IndividualWork: React.FC = () => {
             Extra job details
           </Typography>
         </Box>
-      </Modal>
+      </Modal> */}
       <div className={classes.jobs_section}>
         <Card>
           <ul onMouseOver={handleOpen}>

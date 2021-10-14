@@ -38,7 +38,19 @@ const Contact: React.FC = () => {
 
   return (
     <div className={classes["main-sec"]}>
-      <form onSubmit={submitHandler}>
+      {/* <img
+        alt="Page under construction"
+        src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3619894.jpg"
+        style={{ objectFit: "contain", width: "100%", height: "100" }}
+      /> */}
+      <h3
+        style={{
+          marginTop: "25rem",
+        }}
+      >
+        Page under construction
+      </h3>
+      {/* <form onSubmit={submitHandler}>
         <h2>Contact</h2>
         <div className={classes.control}>
           <label htmlFor="name">Name</label>
@@ -70,7 +82,7 @@ const Contact: React.FC = () => {
           ></textarea>
         </div>
         <button>Send your Remarks</button>
-      </form>
+      </form> */}
     </div>
   );
 };

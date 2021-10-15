@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
       /> */}
       <div
         style={{
-          marginTop: "15rem",
+          marginTop: "5rem",
         }}
       >
         <h3 style={{ textAlign: "center", color: "#ca6fca" }}>

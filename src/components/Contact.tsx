@@ -43,13 +43,16 @@ const Contact: React.FC = () => {
         src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3619894.jpg"
         style={{ objectFit: "contain", width: "100%", height: "100" }}
       /> */}
-      <h3
+      <div
         style={{
-          marginTop: "25rem",
+          marginTop: "15rem",
         }}
       >
-        Page under construction
-      </h3>
+        <h3 style={{ textAlign: "center", color: "#ca6fca" }}>
+          Page under construction
+        </h3>
+        <p>Reach me on +254705112077 | martinnwachira@gmail.com</p>
+      </div>
       {/* <form onSubmit={submitHandler}>
         <h2>Contact</h2>
         <div className={classes.control}>
